@@ -14,6 +14,7 @@ function beckerEtheo,lum,lambda=lambda,esurf=esurf,w=w,tau=tau,mass=mass,radius=
 ;
 ; KEYWORD PARAMETERS:
 ;         lambda: Lambda parameter from Becker et al. (2012). 0.1 is disk accretion, 1.0 is wind accretion.
+;         w: Characterizes mean photon energy as E = wkT (w=1 is bremsstrahlung, w=3 is Planck)
 ;         esurf: Cyclotron line energy at surface
 ;         tau: Thompson optical depth required to stop infalling material
 ;         mass: Mass of neutron star
